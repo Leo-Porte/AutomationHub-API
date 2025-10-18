@@ -45,15 +45,21 @@ This API is the foundation for an intelligent environment where your assistant (
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/Leo-Porte/AutomationHub.git
 cd AutomationHub
+```
 
 ### 2️⃣ Install dependencies
+
+```bash
 dotnet restore
+```
 
 ### 3️⃣ Configure OpenAI API Key
 
+```bash
 Create a file named appsettings.Development.json (not committed to Git) with:
 
 {
@@ -61,10 +67,13 @@ Create a file named appsettings.Development.json (not committed to Git) with:
     "ApiKey": "INSERT_YOUR_API_KEY_HERE"
   }
 }
+```
 
 ### 4️⃣ Run the API
-dotnet run
 
+```bash
+dotnet run
+```
 
 Then navigate to:
 👉 https://localhost:7100/swagger
