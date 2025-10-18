@@ -1,44 +1,25 @@
-﻿using AutomationHub.Models;
-using OpenAI;
+﻿using OpenAI.Chat;
+using AutomationHub.Models;
 
 namespace AutomationHub.Services
 {
-    /// <summary>
-    /// Service responsible for interacting with the OpenAI chat API.
-    /// </summary>
     public class OpenAIService
     {
-        private readonly OpenAIClient _client;
+        private readonly ChatClient _chat;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="OpenAIService"/> class.
-        /// </summary>
-        /// <param name="apiKey">The API key used to authenticate with OpenAI.</param>
-        public OpenAIService(string apiKey)
+        public OpenAIService(ChatClient chat) => _chat = chat;
+
+        public async Task<ChatResponse> SendMessageAsync(ChatRequest request)
         {
-            _client = new OpenAIClient(apiKey);
-        }
+            if (string.IsNullOrWhiteSpace(request.Message))
+                return new ChatResponse { Reply = "Empty message received." };
 
-        /// <summary>
-        /// Sends a message to the model and returns the generated response.
-        /// </summary>
-        /// <param name="request">The request payload containing the user message.</param>
-        /// <returns>A <see cref="ChatResponse"/> with the model reply and timestamp.</returns>
-        public async Task<Models.ChatResponse> SendMessageAsync(Models.ChatRequest request)
-        {
-            var chatMessages = new List<ChatMessage>
-            {
-                new ChatMessage(ChatRole.User, request.Message ?? string.Empty)
-            };
+            ChatCompletion completion = await _chat.CompleteChatAsync(request.Message!);
+            string reply = completion.Content.Count > 0
+                ? completion.Content[0].Text
+                : "No response from OpenAI.";
 
-            var result = await _client.Chat.GetAsync("gpt-4o-mini", chatMessages);
-            var reply = result.Value.Choices[0].Message.Content[0].Text;
-
-            return new ChatResponse
-            {
-                Reply = reply,
-                Timestamp = DateTime.Now
-            };
+            return new ChatResponse { Reply = reply, Timestamp = DateTime.Now };
         }
     }
 }
