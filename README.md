@@ -78,3 +78,43 @@ dotnet run
 Then navigate to:
 👉 https://localhost:7100/swagger
 
+### 🧩 API Endpoints
+
+Method	Endpoint	Description
+```bash
+POST	/api/chat/send	Sends a message to ChatGPT and returns a response.
+GET	/api/github/status	(Coming soon) Repository sync and status check.
+GET	/api/jira/issues	(Coming soon) Retrieve Jira issues and progress.
+```
+
+🧭 Roadmap:
+```bash
+ Base Web API with OpenAI Integration
+
+ - Context caching and memory persistence ✅
+
+ - GitHub Integration (Octokit) ❌
+
+ - Jira Integration (REST API) ❌
+
+ - MAUI App client connection ❌
+
+ - Smart AI-driven task planning ❌
+```
+
+### 🧑‍💻 Contributing
+
+Contributions are welcome!
+Please fork the repository and open a pull request with improvements, bug fixes, or new features.
+
+⚖️ License
+This project is licensed under the MIT License.
+
+
+
+🌐 Author:
+Leonardo Porte
+💼 Full-Stack Developer (.NET / Angular / Node.js)
+📍 Brazil
+🔗 GitHub Profile
+
