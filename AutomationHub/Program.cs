@@ -1,13 +1,13 @@
+using AutomationHub.Infrastructure.Swagger;
 using AutomationHub.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services builder
+// Add services
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerDocumentation();
 
-// Configuração do OpenAIService
+// OpenAIService configuration
 builder.Services.AddSingleton(sp =>
 {
     var configuration = sp.GetRequiredService<IConfiguration>();
@@ -17,12 +17,7 @@ builder.Services.AddSingleton(sp =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+app.UseSwaggerDocumentation();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
