@@ -110,11 +110,53 @@ Please fork the repository and open a pull request with improvements, bug fixes,
 ⚖️ License
 This project is licensed under the MIT License.
 
+## 🔧 SonarQube Environment Setup
 
+This project uses a local SonarQube instance running in Docker (image: `sonarqube:lts-community`). The `analyze.ps1` script automates the entire analysis process.
 
-🌐 Author:
-Leonardo Porte
-💼 Full-Stack Developer (.NET / Angular / Node.js)
-📍 Brazil
-🔗 GitHub Profile
+### Requirements
+- Docker Desktop installed and running
+- .NET 8 SDK installed
+- dotnet-sonarscanner global tool:
+
+```
+dotnet tool install --global dotnet-sonarscanner
+```
+
+### Create local secrets
+Create a `secrets.ps1` file at the project root with your token:
+
+```
+$Token = "sqp_SEU_TOKEN_AQUI"
+```
+
+The file is already listed in `.gitignore` and will not be committed.
+
+### Run the analysis
+Execute the PowerShell script from the repository root:
+
+```
+powershell -ExecutionPolicy Bypass -File .\analyze.ps1
+```
+
+The script will:
+- Ensure the Docker container `sonarqube` using the `sonarqube:lts-community` image exists and is running
+- Wait until the server health is GREEN
+- Run the sequence: `begin → build → end`
+- Open the SonarQube dashboard automatically
+
+### Check the dashboard
+Open:
+- http://localhost:9000
+
+First login (default credentials):
+- user: admin
+- password: admin
+
+Change the password after the first login.
+
+### Best practices
+- Never commit tokens or sensitive local files
+- Update `secrets.ps1` only locally
+- Reuse this flow later to store other keys (Jira, GitHub, etc.)
 
