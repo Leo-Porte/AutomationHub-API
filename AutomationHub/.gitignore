@@ -1,0 +1,6 @@
+Documentation/Copilot.KnowledgeBase/.current-improvement
+Documentation/Copilot.KnowledgeBase/tmp/
+Documentation/Copilot.KnowledgeBase/logs/
+*.env
+*.key
+*.ps1-secret

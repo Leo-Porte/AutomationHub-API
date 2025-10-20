@@ -1,0 +1,134 @@
+[
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\00_CORE\\APIEndpoints.md",
+    "Name": "APIEndpoints.md",
+    "Size": 858,
+    "UpdatedAt": "2025-10-20T04:18:41.0670669Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\00_CORE\\DomainOverview.md",
+    "Name": "DomainOverview.md",
+    "Size": 1518,
+    "UpdatedAt": "2025-10-20T04:18:42.0030147Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\00_CORE\\README.md",
+    "Name": "README.md",
+    "Size": 1866,
+    "UpdatedAt": "2025-10-20T04:18:42.0130812Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\00_CORE\\UserStories.md",
+    "Name": "UserStories.md",
+    "Size": 845,
+    "UpdatedAt": "2025-10-20T04:18:42.0104849Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\01_TECH\\Architecture.md",
+    "Name": "Architecture.md",
+    "Size": 1114,
+    "UpdatedAt": "2025-10-20T04:18:42.0130812Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\01_TECH\\DesignPatterns.md",
+    "Name": "DesignPatterns.md",
+    "Size": 935,
+    "UpdatedAt": "2025-10-20T04:18:42.0104849Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\01_TECH\\Modules\\Auth.md",
+    "Name": "Auth.md",
+    "Size": 229,
+    "UpdatedAt": "2025-10-20T04:18:42.2715982Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\01_TECH\\Modules\\Finance.md",
+    "Name": "Finance.md",
+    "Size": 202,
+    "UpdatedAt": "2025-10-20T04:18:42.2715982Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\01_TECH\\Modules\\Notifications.md",
+    "Name": "Notifications.md",
+    "Size": 184,
+    "UpdatedAt": "2025-10-20T04:18:42.2784367Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\01_TECH\\Modules\\Storage.md",
+    "Name": "Storage.md",
+    "Size": 207,
+    "UpdatedAt": "2025-10-20T04:18:42.2715982Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\02_DECISIONS\\ADRs\\0001-template.md",
+    "Name": "0001-template.md",
+    "Size": 447,
+    "UpdatedAt": "2025-10-20T04:18:42.2784367Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\02_DECISIONS\\Refactors.md",
+    "Name": "Refactors.md",
+    "Size": 584,
+    "UpdatedAt": "2025-10-20T04:57:17.1181279Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\03_TESTS\\Coverage.md",
+    "Name": "Coverage.md",
+    "Size": 1445,
+    "UpdatedAt": "2025-10-20T04:41:34.0176104Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\03_TESTS\\MissingTests.md",
+    "Name": "MissingTests.md",
+    "Size": 330,
+    "UpdatedAt": "2025-10-20T04:18:42.2814508Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\03_TESTS\\Strategy.md",
+    "Name": "Strategy.md",
+    "Size": 470,
+    "UpdatedAt": "2025-10-20T04:18:42.2784367Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\04_GUIDES\\Conventions.md",
+    "Name": "Conventions.md",
+    "Size": 481,
+    "UpdatedAt": "2025-10-20T04:18:42.2873718Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\04_GUIDES\\DevSetup.md",
+    "Name": "DevSetup.md",
+    "Size": 2058,
+    "UpdatedAt": "2025-10-20T04:41:45.1661931Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\04_GUIDES\\SonarLocal.md",
+    "Name": "SonarLocal.md",
+    "Size": 683,
+    "UpdatedAt": "2025-10-20T04:18:42.2873718Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\05_HISTORY\\Improvements\\20251020_exemplo-ajustar-documentacao-automatizada.md",
+    "Name": "20251020_exemplo-ajustar-documentacao-automatizada.md",
+    "Size": 495,
+    "UpdatedAt": "2025-10-20T04:57:17.0804661Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\05_HISTORY\\Improvements\\README.md",
+    "Name": "README.md",
+    "Size": 403,
+    "UpdatedAt": "2025-10-20T04:57:17.1593989Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\05_HISTORY\\LegacyNotes.md",
+    "Name": "LegacyNotes.md",
+    "Size": 332,
+    "UpdatedAt": "2025-10-20T04:18:42.2882120Z"
+  },
+  {
+    "Path": ".\\AutomationHub\\Documentation\\Copilot.KnowledgeBase\\05_HISTORY\\WeeklySummary.md",
+    "Name": "WeeklySummary.md",
+    "Size": 544,
+    "UpdatedAt": "2025-10-20T04:57:17.1104616Z"
+  }
+]

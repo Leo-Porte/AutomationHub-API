@@ -419,3 +419,14 @@ FodyWeavers.xsd
 
 # SonarQube Secrets
 secrets.ps1
+
+# Ignore arquivos e pastas sensíveis/geradas
+Documentation/Copilot.KnowledgeBase/.current-improvement
+Documentation/Copilot.KnowledgeBase/tmp/
+Documentation/Copilot.KnowledgeBase/logs/
+AutomationHub/Documentation/Copilot.KnowledgeBase/.current-improvement
+AutomationHub/Documentation/Copilot.KnowledgeBase/tmp/
+AutomationHub/Documentation/Copilot.KnowledgeBase/logs/
+*.env
+*.key
+*.ps1-secret
