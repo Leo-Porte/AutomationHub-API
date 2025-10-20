@@ -1,0 +1,13 @@
+﻿C:\ProjetosPessoais\AutomationHub-API\AutomationHub\Controller\ChatController.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\Infrastructure\Swagger\SwaggerConfiguration.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\Models\ChatRequest.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\Models\ChatResponse.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\Program.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\Services\OpenAIService.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\obj\Debug\net8.0\AutomationHub.GlobalUsings.g.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\obj\Debug\net8.0\AutomationHub.AssemblyInfo.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\obj\Debug\net8.0\AutomationHub.MvcApplicationPartsAssemblyInfo.cs
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\appsettings.Development.json
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\appsettings.json
+C:\ProjetosPessoais\AutomationHub-API\AutomationHub\Properties\launchSettings.json
